@@ -1,0 +1,98 @@
+[
+  {
+    "id": "shablon-01",
+    "type": "ariza",
+    "label": "Ariza (formal murojaat)",
+    "description": "Rasmiy ariza yozish uchun shablon.",
+    "keywords": ["ariza", "murojaat", "iltimos", "so'rov"],
+    "schema": {
+      "required": ["recipient_title", "recipient_name", "sender_name", "sender_position", "reason", "date"],
+      "optional": ["school", "reference_number"]
+    },
+    "template": "{{school}} direktori {{recipient_title}} {{recipient_name}}ga\n\nArizachi: {{sender_name}}\n{{sender_position}}\n\nARIZA\n\n{{reason}}\n\nSana: {{date}}\n\nImzo: ________\n({{sender_name}})"
+  },
+  {
+    "id": "shablon-02",
+    "type": "ish_tabeli",
+    "label": "Ish Tabeli (work schedule)",
+    "description": "O'qituvchining haftalik dars jadvali.",
+    "keywords": ["ish tabeli", "tabel", "dars jadvali"],
+    "schema": {
+      "required": ["teacher_name", "subject", "classes", "week_start", "week_end"],
+      "optional": ["school", "total_hours"]
+    },
+    "template": "{{school}}\n\nISHLAB CHIQILGAN SOATLAR TABELI\n\nO'qituvchi: {{teacher_name}}\nFan: {{subject}}\nSinf: {{classes}}\nHafta: {{week_start}} \u2013 {{week_end}}\n\n| Kun | Sinf | Soat | Mavzu |\nJami soat: {{total_hours}}"
+  },
+  {
+    "id": "shablon-03",
+    "type": "ktp",
+    "label": "Kalendar-tematik plan (KTP)",
+    "description": "Yillik kalendar-tematik plan.",
+    "keywords": ["ktp", "kalendar", "tematik plan"],
+    "schema": {
+      "required": ["teacher_name", "subject", "class_name", "academic_year"],
+      "optional": ["school", "hours_total", "hours_week"]
+    },
+    "template": "{{school}}\n\nKALENDAR-TEMATIK PLAN\n\nO'qituvchi: {{teacher_name}}\nFan: {{subject}}\nSinf: {{class_name}}\nO'quv yili: {{academic_year}}\n\nI-CHORAK\n| \u2116 | Mavzu | Sana | Soat |\nII-CHORAK\nIII-CHORAK\nIV-CHORAK"
+  },
+  {
+    "id": "shablon-04",
+    "type": "oum",
+    "label": "O'quv-uslubiy majmua (O'UM)",
+    "description": "O'quv-uslubiy majmua.",
+    "keywords": ["oum", "o'quv uslubiy", "majmua"],
+    "schema": {
+      "required": ["teacher_name", "subject", "class_name", "academic_year"],
+      "optional": ["school"]
+    },
+    "template": "{{school}}\n\nO'QUV-USLUBIY MAJMUA (O'UM)\n\nFan: {{subject}}\nSinf: {{class_name}}\nO'qituvchi: {{teacher_name}}\nO'quv yili: {{academic_year}}\n\n1. Nazariy materiallar\n2. Amaliy mashg'ulotlar\n3. Mustaqil ta'lim uchun topshiriqlar\n4. Baholash mezonlari"
+  },
+  {
+    "id": "shablon-05",
+    "type": "bsb_chb",
+    "label": "BSB/CHB (summativ baholash)",
+    "description": "BSB va CHB natijalari.",
+    "keywords": ["bsb", "chb", "summativ", "baholash"],
+    "schema": {
+      "required": ["teacher_name", "subject", "class_name", "quarter"],
+      "optional": ["school", "academic_year", "quality_percent", "mastery_percent"]
+    },
+    "template": "{{school}}\n\nBSB / CHB NATIJALARI\n\nO'qituvchi: {{teacher_name}}\nFan: {{subject}}\nSinf: {{class_name}}\nChorak: {{quarter}}\n\nSifat foizi: {{quality_percent}}%\nO'zlashtirish foizi: {{mastery_percent}}%"
+  },
+  {
+    "id": "shablon-06",
+    "type": "sillabus",
+    "label": "Sillabus (o'quv dasturi)",
+    "description": "Fanning to'liq sillabusi.",
+    "keywords": ["sillabus", "o'quv dasturi"],
+    "schema": {
+      "required": ["teacher_name", "subject", "class_name", "academic_year", "goals"],
+      "optional": ["school"]
+    },
+    "template": "{{school}}\n\nSILLABUS\n{{subject}} ({{class_name}}-sinf)\nO'quv yili: {{academic_year}}\n\nO'qituvchi: {{teacher_name}}\n\n1. FANNING MAQSADI\n{{goals}}\n\n2. MAVZULAR\n3. ADABIYOTLAR\n4. BAHOLASH"
+  },
+  {
+    "id": "shablon-07",
+    "type": "hisobot",
+    "label": "Hisobot (choraklik/yillik)",
+    "description": "Choraklik va yillik hisobot.",
+    "keywords": ["hisobot", "yillik hisobot", "choraklik hisobot"],
+    "schema": {
+      "required": ["teacher_name", "subject", "period", "academic_year"],
+      "optional": ["school", "mastery", "quality", "conclusions"]
+    },
+    "template": "{{school}}\n\nHISOBOT\n\nO'qituvchi: {{teacher_name}}\nFan: {{subject}}\nDavr: {{period}}\nO'quv yili: {{academic_year}}\n\nO'zlashtirish: {{mastery}}%\nSifat: {{quality}}%\n\nXulosa: {{conclusions}}"
+  },
+  {
+    "id": "shablon-08",
+    "type": "tushuntirish_xati",
+    "label": "Tushuntirish xati",
+    "description": "Tushuntirish xati.",
+    "keywords": ["tushuntirish", "xat", "izoh"],
+    "schema": {
+      "required": ["recipient_title", "recipient_name", "sender_name", "sender_position", "letter_topic", "explanation", "date"],
+      "optional": ["school"]
+    },
+    "template": "{{school}} direktori {{recipient_title}} {{recipient_name}}ga\n\nArizachi: {{sender_name}}\n{{sender_position}}\n\nTUSHUNTIRISH XATI\n\nMavzu: {{letter_topic}}\n\n{{explanation}}\n\nSana: {{date}}\n\nImzo: ________\n({{sender_name}})"
+  }
+]

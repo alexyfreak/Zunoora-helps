@@ -1,0 +1,7 @@
+[
+  { "id": "school-01", "name": "21-umumiy o'rta maktab", "address": "Toshkent sh., Chilonzor t., 21-uy", "phone": null, "director_id": "director-01", "created_at": "2025-09-01T00:00:00Z" },
+  { "id": "school-02", "name": "5-IDUM", "address": "Toshkent sh., Yunusobod t., 5-uy", "phone": null, "director_id": "director-02", "created_at": "2025-09-01T00:00:00Z" },
+  { "id": "school-03", "name": "35-maktab", "address": "Toshkent sh., Mirzo Ulug'bek t., 35-uy", "phone": null, "director_id": "director-03", "created_at": "2025-09-01T00:00:00Z" },
+  { "id": "school-04", "name": "12-umumiy o'rta maktab", "address": "Toshkent sh., Sergeli t., 12-uy", "phone": null, "director_id": "director-04", "created_at": "2025-09-01T00:00:00Z" },
+  { "id": "school-05", "name": "1-ixtisoslashtirilgan maktab", "address": "Toshkent sh., Yashnobod t., 1-uy", "phone": null, "director_id": "director-05", "created_at": "2025-09-01T00:00:00Z" }
+]

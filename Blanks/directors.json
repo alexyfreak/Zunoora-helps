@@ -1,0 +1,7 @@
+[
+  { "id": "director-01", "full_name": "Sultonov Bahrom Karim o'g'li", "school_id": "school-01", "phone": "+998907890123", "email": "bahrom@school.uz", "position": "Direktor", "created_at": "2025-09-01T00:00:00Z" },
+  { "id": "director-02", "full_name": "Xasanov Akmaljon Soliyevich", "school_id": "school-02", "phone": "+998911111111", "email": "akmal@school.uz", "position": "Direktor", "created_at": "2025-09-01T00:00:00Z" },
+  { "id": "director-03", "full_name": "Karimov Rustam Shavkat o'g'li", "school_id": "school-03", "phone": "+998912222222", "email": "rustam@school.uz", "position": "Direktor", "created_at": "2025-09-01T00:00:00Z" },
+  { "id": "director-04", "full_name": "Murodova Dilorom Abdullayevna", "school_id": "school-04", "phone": "+998913333333", "email": "dilorom@school.uz", "position": "Direktor", "created_at": "2025-09-01T00:00:00Z" },
+  { "id": "director-05", "full_name": "Yusupov Botirjon Erkin o'g'li", "school_id": "school-05", "phone": "+998914444444", "email": "botir@school.uz", "position": "Direktor", "created_at": "2025-09-01T00:00:00Z" }
+]
