@@ -1,7 +1,7 @@
 # Zunoora — All Rights Reserved
 
 **Copyright (c) 2026 alexyfreak**
-**Project: Zunoora (https://github.com/alexyfreak/znr-terminal)**
+**Project: Zunoora (https://github.com/alexyfreak/Zunoora-helps)**
 
 ---
 
@@ -56,4 +56,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 **For licensing inquiries, contact:**
 Telegram: https://t.me/o712alx
-GitHub Issues: https://github.com/alexyfreak/znr-terminal
+GitHub Issues: https://github.com/alexyfreak/Zunoora-helps
