@@ -293,4 +293,4 @@ npm run lint         # Run ESLint
 
 ## License
 
-MIT
+[All rights reserved] (https://github.com/alexyfreak/Zunoora-helps/blob/master/LICENSE.md)
